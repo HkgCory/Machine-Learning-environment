@@ -1,0 +1,14 @@
+prefix=/Users/kinhanglo/Desktop/machine-learning/Machine-Learning-environment/env
+exec_prefix=/Users/kinhanglo/Desktop/machine-learning/Machine-Learning-environment/env
+libdir=/Users/kinhanglo/Desktop/machine-learning/Machine-Learning-environment/env/lib
+includedir=/Users/kinhanglo/Desktop/machine-learning/Machine-Learning-environment/env/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 24.3.18
+Requires: 
+Requires.private: 
+Libs: -L/Users/kinhanglo/Desktop/machine-learning/Machine-Learning-environment/env/lib -lfreetype
+Libs.private: -lz -L/Users/kinhanglo/Desktop/machine-learning/Machine-Learning-environment/env/lib -lpng16 -lz
+Cflags: -I${includedir}/freetype2
